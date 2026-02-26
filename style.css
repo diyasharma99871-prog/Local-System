@@ -1,0 +1,33 @@
+*{
+    margin : 0px;
+}
+.container {
+  display : flex;
+  text-align : center;
+  padding : 15px;
+background-color: black;
+}
+
+.Icon{
+  margin-right :auto;
+  color : pink;
+   
+
+}
+
+a {
+    text-decoration: none;
+    margin-left :30px;
+    color : white;
+    cursor: pointer;;
+    
+}
+
+.log{
+   border-radius : 2px;
+     background-color : rgb(200, 27, 219)
+} 
+
+a:hover{
+font-weight: bold;
+}
