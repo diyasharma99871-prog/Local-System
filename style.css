@@ -1,4 +1,4 @@
-*{
+/* *{
     margin : 0px;
 }
 .container {
@@ -30,4 +30,29 @@ a {
 
 a:hover{
 font-weight: bold;
+} */
+
+.container {
+  height : auto;
+  width :800px;
+  border : 2px solid black;
+  display :grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows:100px 100px ;
+  justify-items: center;
+  align-items : center;
+ 
+  
 }
+
+.box {
+  height : 50px ; 
+  width :100px;
+  border : 2px solid black;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+  
+} 
+
+
